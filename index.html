@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="shortcut icon" href="#">
+  <script src="http://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  <script type="text/javascript" src="./app.js"></script>
+  <link rel="shortcut icon" href="img/sudoku-icon.png" />
+  <meta charset="UTF-8">
+
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+  <div id="menu">
+    <ul>
+      <li onclick="instructions(0)">Facil</li>
+      <li onclick="instructions(1)">Medio</li>
+      <li onclick="instructions(2)">Dificil</li>
+    </ul>
+    <div id="instructions"></div>
+    <button id="play" onclick="play()" class="d-none">Iniciar partida</button>
+  </div>
+
+  <div id="game">
+    <ul id="listGame" class="d-none">
+
+
+      <li id="timer"></li>
+      <li id="error"></li>
+      <li id="points"></li>
+    </ul>
+    <!-- <span id="timer"></span>
+    <span id="error"></span>-
+    <span id="points"></span> -->
+    <button id="restart"  onclick="location.reload()" class="d-none">Reiniciar</button>
+
+    <div id="sudokuTable">
+      
+    </div>
+
+  </div>
+
+</body>
+
+</html>

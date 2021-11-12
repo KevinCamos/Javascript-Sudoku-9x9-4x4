@@ -1,0 +1,159 @@
+html,
+#game {
+  height: 100%;
+  display: table;
+  margin: auto;
+  overflow-y: hidden;
+}
+
+
+#game {
+  display: table-cell;
+  vertical-align: middle;
+
+}
+
+body {
+  background-color: grey;
+
+}
+
+#menu {
+  color: wheat;
+  overflow: hidden; 
+
+}
+
+ul {
+  padding-top: 20px;
+  margin-top: -24px;
+  background-color: brown;
+  /* width: 175%; */
+  margin-left: -39% ;
+  word-spacing: 12.25em;
+}
+
+/* MENU */
+
+li {
+  display: inline;
+
+  list-style: none;
+  line-height: 2;
+  font-size: 50px;
+  padding-left: -800px;
+}
+
+li:nth-child(1) {
+  padding-left: 500px;
+}
+
+li:hover {
+  color: white;
+  cursor: pointer
+}
+
+#instructions {
+  margin-top: 150px;
+  font-size: 30px;
+  margin-bottom: 60px;
+}
+
+button {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+  border-radius: 10%;
+  margin-left: 500px;
+}
+
+button:hover {
+  background-color: brown;
+  color: white;
+  cursor: pointer
+}
+#sudokuTable{
+  margin-left: -25%;
+  overflow-y: hidden;
+
+}
+#restart{
+  margin-left: 17%;
+  width: 72%;}
+/* MENU */
+
+#timer {
+  color: white;
+  margin-left:10%
+
+}
+
+#menu>ul:nth-child(1){
+  padding-left:15%;
+
+}
+
+#error {
+  color: white;
+
+  /* padding-right: 40% */
+}
+
+#points {
+  color: white;
+
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+table {
+  margin-left: 40%  ;
+  border-collapse: collapse;
+  background-color: wheat;
+  border-color: thick solid black;
+
+}
+
+td,
+th {
+  border: 1px solid black;
+  width: 65px;
+  height: 65px;
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+
+}
+
+input {
+  width: 65px;
+  height: 65px;
+  text-align: center;
+  font-size: 30px;
+  background-color: wheat;
+  border: 0;
+  font-weight: lighter;
+
+}
+
+.d-none {
+  display: none;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
